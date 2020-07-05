@@ -56,6 +56,7 @@ export default function AppWrapper() {
             <DataHandler latLong={latLong} />
           </>
         </ShowIfPropTrue>
+
       </div>
     </>
   );
