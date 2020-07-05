@@ -1,0 +1,7 @@
+.cardWrapper {
+  display: inline-flex;
+}
+.dailyForeCastCard {
+  width: fit-content;
+  min-width: 2rem;;
+}
