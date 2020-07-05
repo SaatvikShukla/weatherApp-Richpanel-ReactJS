@@ -1,7 +1,21 @@
 .cardWrapper {
   display: inline-flex;
+  overflow: scroll;
 }
 .dailyForeCastCard {
   width: fit-content;
-  min-width: 2rem;;
+  min-width: 7rem;
+  display: grid;
+  justify-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dailyForeCastCard:hover {
+  box-shadow: 0 0 10px rgba(33, 33, 33, 0.2);
+}
+.minMaxWrapper {
+  display: inline-flex;
+}
+.minMaxTemp {
+  padding: 3px;
 }
