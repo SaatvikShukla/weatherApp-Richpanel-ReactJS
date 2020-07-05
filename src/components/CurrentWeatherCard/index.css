@@ -1,0 +1,29 @@
+.currentWeatherCard {
+  box-shadow: 0 0 10px rgba(33, 33, 33, 0.2);
+  min-height: 80vh;
+  padding-left: 24px;
+  margin: 18px;
+}
+.currentWeatherCard__MainTemp {
+  width: fit-content;
+  font-size: -webkit-xxx-large;
+  display: inline-flex;
+}
+.rowItem {
+  width: fit-content;
+  padding: 6px;
+}
+.rowWrapper {
+  width: fit-content;
+  width: 35vw;
+  text-align: -webkit-center;
+  background: #e0f6ff;
+  border-radius: 6px;
+  margin-left: 24px;
+  margin-right: 17px;
+}
+.metaRow {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
